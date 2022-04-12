@@ -14,7 +14,7 @@ const About = () => {
       <StyledImage src={codingSvg} />
       <HeaderContainer>
         <h1>
-          About Software Developer <span>AshleyMiller </span>
+          About Software Developer <span>Enes Yeşilkütük</span>
         </h1>
       </HeaderContainer>
       <InfoContainer>
