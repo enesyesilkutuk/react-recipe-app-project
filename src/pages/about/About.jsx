@@ -21,8 +21,8 @@ const About = () => {
         <h2>Hi, I'am Enes</h2>
         <h3>I'm currently a Full-Stack Developer trainee at Clarusway.</h3>
         <h4>
-          
-          I've been familiar with Python, HTML-CSS, JavaScript and React.Js so far and struggling diligently to be a Full-Stack Developer.
+          I've been familiar with Python, HTML-CSS, JavaScript and React.Js so
+          far and struggling diligently to be a Full-Stack Developer.
         </h4>
         <h2>
           <a href="mailto:enesyesilkutuk@gmail.com">Send email</a> :
