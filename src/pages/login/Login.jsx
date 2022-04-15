@@ -6,7 +6,7 @@ import { Navigate, useNavigate } from 'react-router-dom';
 
 const Login = () => {
 
-  const navigate = useNavigate();
+ 
 
   const user = {
     username : "user"
@@ -15,7 +15,7 @@ const handleSubmit=(e)=>{
 e.preventDefault();
 sessionStorage.setItem("user", JSON.stringify(user));
 //window.location.href="/home";
-navigate("/home");
+Navigate("/home");
 
 }
 
