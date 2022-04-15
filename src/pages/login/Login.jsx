@@ -1,8 +1,12 @@
 import React from 'react'
 import { FormContainer, Header, LoginContainer,StyledButton,StyledForm,StyledImg, StyledInput } from './LoginStyles'
 import meal from '../../assets/meal.svg';
+import { Navigate, useNavigate } from 'react-router-dom';
+
 
 const Login = () => {
+
+  const navigate = useNavigate();
 
   const user = {
     username : "user"
@@ -10,7 +14,9 @@ const Login = () => {
 const handleSubmit=(e)=>{
 e.preventDefault();
 sessionStorage.setItem("user", JSON.stringify(user));
-window.location.href="/home";
+//window.location.href="/home";
+navigate("/home");
+
 }
 
   return (
