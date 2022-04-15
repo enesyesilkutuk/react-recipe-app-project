@@ -1,7 +1,7 @@
 import React from 'react'
 import { FormContainer, Header, LoginContainer,StyledButton,StyledForm,StyledImg, StyledInput } from './LoginStyles'
 import meal from '../../assets/meal.svg';
-import { Navigate, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
 
