@@ -35,7 +35,7 @@ const Home = () => {
     getData={getData}
     mealTypes={mealTypes}
     setMeal={setMeal}
-    
+    query = {query}
     />
     
     {food ? (

@@ -2,7 +2,7 @@ import React from "react";
 import Form from "./Form";
 import { HeaderContainer, MainHeader } from "./HeaderStyles";
 
-const Header = ({ setQuery, getData, mealTypes, setMeal }) => {
+const Header = ({ setQuery, getData, mealTypes, setMeal, query }) => {
   return (
     <HeaderContainer>
       <MainHeader>Food App</MainHeader>
@@ -11,6 +11,7 @@ const Header = ({ setQuery, getData, mealTypes, setMeal }) => {
         getData={getData}
         mealTypes={mealTypes}
         setMeal={setMeal}
+        query={query}
       />
     </HeaderContainer>
   );
